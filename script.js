@@ -1,4 +1,4 @@
-const apiKey = '180b3693';
+const apiKey = 'YOUR_API_KEY';
 const apiUrl = 'http://www.omdbapi.com/';
 
 const searchInput = document.getElementById('searchInput');
@@ -78,3 +78,4 @@ window.addEventListener('load', displayDefaultMovies);
 
 // Add event listener to search input
 searchInput.addEventListener('input', searchMovies);
+
